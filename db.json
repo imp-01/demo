@@ -1,14 +1,29 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+ "_id": 1,
+ "public_ip": “169.63.140.206”,
+ "private_ip": “10.188.111.75”,
+ "username": "root",
+ "vsrx_pwd_hashed": “rEK1ecacw.7.c”,
+ "system_info": {JSON_BLOB},
+"interfaces": [
+  {
+   "interface": "reth0",
+   "ip": "10.188.111.75"
+  },
+  {
+   "interface": "reth1",
+   "ip": "169.63.140.206"
+  }
+],
+ "associated_bms": 
+  [
+   {
+    "private_ip": “10.188.111.77”,
+    "type": “bm_iperf_client”
+   },
+   {
+    "private_ip": “10.188.111.78”,
+    "type": “bm_iperf_server”
+   }
+ ]
 }
