@@ -4,25 +4,4 @@
   "private_ip": "10.188.111.75",
   "username": "root",
   "vsrx_pwd_hashed": "rEK1ecacw.7.c",
-  "system_info": "{JSON_BLOB}",
-  "interfaces": [
-    {
-      "interface": "reth0",
-      "ip": "10.188.111.75"
-    },
-    {
-      "interface": "reth1",
-      "ip": "169.63.140.206"
-    }
-  ],
-  "associated_bms": [
-    {
-      "private_ip": "10.188.111.77",
-      "type": "bm_iperf_client"
-    },
-    {
-      "private_ip": "10.188.111.78",
-      "type": "bm_iperf_server"
-    }
-  ]
 }
