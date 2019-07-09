@@ -1,7 +1,6 @@
 {
   "_id": 1,
   "public_ip": "169.63.140.206",
-  "private_ip": "10.188.111.75",
   "username": "root",
   "vsrx_pwd_hashed": "rEK1ecacw.7.c"
 }
